@@ -891,13 +891,6 @@ body {
   margin-bottom: 0;             /* remove inline spacing */
 }
 
-.img-scroll .img-scroll-2 img{
-  flex: 00 auto;
-  width: auto;
-  height: auto;
-  object-fit: cover;
-}
-
 /* img scrolls */
 /*experiment 1*/
 .img-scroll {
