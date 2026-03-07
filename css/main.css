@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Arketa';
-  src: url('/mvmt___intfc/fonts/OOArketaTrial-Regular.woff2') format('woff2'),
-       url('/mvmt___intfc/fonts/OOArketaTrial-Regular.ttf') format('truetype');
+  src: url('/../fonts/OOArketaTrial-Regular.woff2') format('woff2'),
+       url('/../fonts/OOArketaTrial-Regular.ttf') format('truetype');
   font-weight: normal;
   font-display: swap;
   font-style: normal;
