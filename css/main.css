@@ -17,13 +17,6 @@ body {
   box-sizing: border-box;
 }
 
-.chivo-mono {
-  font-family: "Chivo Mono";
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-}
-
 .header {
   position: fixed;
   top: 0;
