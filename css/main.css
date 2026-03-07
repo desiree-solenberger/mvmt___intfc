@@ -1,0 +1,1239 @@
+@font-face {
+  font-family: 'Arketa';
+  src: url('../fonts/OOArketaTrial-Regular.ttf') format('truetype');
+  src: url('../fonts/OOArketaTrial-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: #f9f9f9;
+  font-family:'Arketa', 'Chivo Mono', monospace;
+  color: blue;
+  font-size: 9px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.chivo-mono {
+  font-family: "Chivo Mono";
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  background-color: #f9f9f9;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: repeat(2, 14%) repeat(3, 24%);
+  grid-template-rows: 2.5vh;
+  width: 100%;
+  gap: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: repeat(2, 14%) repeat(3, 24%); 
+  grid-template-rows: 
+    /*1*/ 2vh
+
+    /*2*/ 2vh
+    /*3*/ .1fr
+    /*4*/ 10vh
+    /*5*/ 50vh
+    /*6*/ 20vh
+
+    /*7*/ 2vh
+    /*8*/ .1fr
+    /*9*/ 10vh
+    /*10*/ 50vh
+    /*11*/ 20vh
+
+    /*12*/ 2vh
+    /*13*/ .1fr
+    /*14*/ 10vh
+    /*15*/ 50vh
+    /*16*/ 20vh
+
+    /*17*/ 2vh
+    /*18*/ .1fr
+    /*19*/ 10vh
+    /*20*/ 50vh
+    /*21*/ 20vh
+
+
+    /*22*/ 2vh
+    /*23*/ .1fr
+    /*24*/ 10vh
+    /*25*/ 50vh
+    /*26*/ 20vh
+
+    /*27*/ 2vh
+    /*28*/ .1fr
+    /*29*/ 10vh
+    /*30*/ 50vh
+    /*31*/ 20vh
+
+    /*32*/ 2vh
+    /*33*/ .1fr
+    /*34*/ 10vh
+    /*35*/ 50vh
+    /*36*/ 20vh
+
+    /*37*/ 2vh
+    /*38*/ .1fr
+    /*39*/ 10vh
+    /*40*/ 50vh
+    /*41*/ 20vh
+
+    /*42*/ 2vh
+    /*43*/ .1fr
+    /*44*/ 10vh
+    /*45*/ 50vh
+    /*46*/ 20vh
+
+    /*47*/ 2vh
+    /*48*/ .1fr
+    /*49*/ 10vh
+    /*50*/ 50vh
+    /*51*/ 20vh
+
+    /*52*/ 2vh
+    /*53*/ .1fr
+    /*54*/ 10vh
+    /*55*/ 50vh
+    /*56*/ 20vh
+
+    /*57*/ 2vh
+    /*58*/ .1fr
+    /*59*/ 10vh
+    /*60*/ 50vh
+    /*61*/ 20vh
+
+    /*62*/ 2vh
+    /*63*/ .1fr
+    /*64*/ 10vh
+    /*65*/ 50vh
+    /*66*/ 20vh
+
+    /*67*/ 2vh
+    /*68*/ .1fr
+    /*69*/ 10vh
+    /*70*/ 50vh
+    /*71*/ 20vh
+
+    /*62*/ 2vh
+    /*63*/ .1fr
+    /*64*/ 10vh
+    /*65*/ 50vh
+    /*66*/ 20vh
+
+    ;
+  width: 100%;
+  gap: 0px;
+  margin: 0px;
+  overflow: hidden;
+  align-items: start;
+  min-width: 0; 
+  min-height: 0;
+}
+
+ /* title */
+.header .text-1{
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  margin-left: 1%;
+  margin-top: 2%;
+}
+
+.header .text-92{
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  margin-left: 1%;
+  margin-right: 2%;
+  margin-top: 2%;
+  justify-self: right;
+}
+
+.header .text-2{
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  margin-top: 2%;
+}
+
+.header .text-69 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  margin-top: 1%;
+}
+
+ /* experiment 1 L */
+.text-3{
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+  justify-self: left;
+  margin-top: 1.5%;
+  margin-left: .5%;
+}
+
+.mvmt-1 {
+  grid-column: 1 / 2;
+  grid-row: 3;
+}
+
+.img-2 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.text-4{
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.text-5{
+  grid-column: 2;
+  grid-row: 4;
+}
+
+ /* experiment 1 R */
+.text-6{
+  grid-column: 3;
+  grid-row: 2;
+  margin-top: 1.5%;
+}
+
+.text-7{
+  grid-column: 3 / 6;
+  grid-row: 6 / 7;
+}
+
+/* experiment 2 L */
+.text-8{
+  grid-column: 1;
+  grid-row: 7 / 8;
+  margin-top: 2.5%;
+  margin-left: 1.5%;
+}
+
+.mvmt-2{
+  grid-column: 1;
+  grid-row: 8 / 9;
+}
+
+.img-4{
+  grid-column: 2;
+  grid-row: 8 / 9;
+}
+
+.text-9{
+  grid-column: 1;
+  grid-row: 9 / 10;
+}
+
+.text-10{
+  grid-column: 2;
+  grid-row: 9 / 10;
+}
+
+/* experiment 2 R */
+.text-11{
+  grid-column: 3 / 6;
+  grid-row: 7 / 8;
+  margin-top: .5%;
+}
+
+.text-12{
+  grid-column: 3 / 6;
+  grid-row: 11 / 12;
+}
+
+/* experiment 3 L */
+.text-13{
+  grid-column: 1 / 3;
+  grid-row: 12 / 13;
+  margin-top: 1.5%;
+  margin-left: .5%;
+}
+
+.mvmt-3{
+  grid-column: 1 / 2;
+  grid-row: 13 / 14;
+}
+
+.img-6{
+  grid-column: 2 / 3;
+  grid-row: 13 / 14;
+}
+
+.text-14{
+  grid-column: 1 / 3;
+  grid-row: 14 / 15;
+}
+
+.text-15{
+  grid-column: 2 / 3;
+  grid-row: 14 / 15;
+}
+
+/* experiment 3 R */
+.text-16{
+  grid-column: 3 / 6;
+  grid-row: 12 / 13;
+  margin-top: .5%;
+}
+
+.text-17{
+  grid-column: 3 / 6;
+  grid-row: 16 / 17;
+}
+
+/* experiment 4 L */
+.text-18{
+  grid-column: 1 / 3;
+  grid-row: 17 / 18;
+  margin-top: 1.5%;
+  margin-left: .5%;
+}
+
+.mvmt-4{
+  grid-column: 1 / 2;
+  grid-row: 18 / 19;
+}
+
+.img-8{
+  grid-column: 2 / 3;
+  grid-row: 18 / 19;
+}
+
+.text-19{
+  grid-column: 1 / 3;
+  grid-row: 19 / 20;
+}
+
+.text-20{
+  grid-column: 2 / 3;
+  grid-row: 19 / 20;
+}
+
+/* experiment 4 R */
+.text-21{
+  grid-column: 3 / 6;
+  grid-row: 17 / 18;
+  margin-top: .5%;
+}
+
+.text-22{
+  grid-column: 3 / 6;
+  grid-row: 21 / 22;
+}
+
+/* experiment 5 L */
+.text-23{
+  grid-column: 1 / 3;
+  grid-row: 22 / 23;
+  margin-top: 1.5%;
+  margin-left: .5%;
+}
+
+.mvmt-5{
+  grid-column: 1 / 2;
+  grid-row: 23 / 24;
+}
+
+.img-10{
+  grid-column: 2 / 3;
+  grid-row: 23 / 24;
+}
+
+.text-24{
+  grid-column: 1 / 2;
+  grid-row: 24 / 25;
+  margin-left: 1.5%;
+}
+
+.text-25{
+  grid-column: 2 / 3;
+  grid-row: 24 / 25;
+}
+
+/* experiment 5 R */
+.text-26{
+  grid-column: 3 / 6;
+  grid-row: 22 / 23;
+  margin-top: .5%;
+}
+
+.text-27{
+  grid-column: 3 / 6;
+  grid-row: 26 / 27;
+}
+
+/* experiment 6 L */
+.text-28{
+  grid-column: 1 / 3;
+  grid-row: 27 / 28;
+  margin-top: 1.5%;
+  margin-left: .5%;
+}
+
+.mvmt-6{
+  grid-column: 1 / 2;
+  grid-row: 28 / 29;
+}
+
+.img-12{
+  grid-column: 2 / 3;
+  grid-row: 28 / 29;
+}
+
+.text-29{
+  grid-column: 1 / 3;
+  grid-row: 29 / 30;
+}
+
+.text-30{
+  grid-column: 2 / 3;
+  grid-row: 29 / 30;
+}
+
+/* experiment 6 R */
+.text-31{
+  grid-column: 3 / 6;
+  grid-row: 27 / 28;
+  margin-top: .5%;
+}
+
+.text-32{
+  grid-column: 3 / 6;
+  grid-row: 31 / 32;
+}
+
+/* experiment 7 L */
+.text-33{
+  grid-column: 1 / 3;
+  grid-row: 32 / 33;
+  margin-top: 1.5%;
+  margin-left: .5%;
+}
+
+.mvmt-7{
+  grid-column: 1 / 2;
+  grid-row: 33 / 34;
+}
+
+.img-14{
+  grid-column: 2 / 3;
+  grid-row: 33 / 34;
+}
+
+.text-34{
+  grid-column: 1 / 2;
+  grid-row: 34 / 35;
+  margin-left: 1.5%;
+}
+
+.text-35{
+  grid-column: 2 / 3;
+  grid-row: 34 / 35;
+}
+
+/* experiment 7 R */
+.text-36{
+  grid-column: 3 / 6;
+  grid-row: 32 / 33;
+  margin-top: .5%;
+}
+
+.text-37{
+  grid-column: 3 / 6;
+  grid-row: 36 / 37;
+}
+
+/* experiment 8 L */
+.text-38{
+  grid-column: 1 / 3;
+  grid-row: 37 / 38;
+  margin-top: 1.5%;
+  margin-left: .5%;
+}
+
+.mvmt-8{
+  grid-column: 1 / 2;
+  grid-row: 38 / 39;
+}
+
+.img-16{
+  grid-column: 2 / 3;
+  grid-row: 38 / 39;
+}
+
+.text-39{
+  grid-column: 1 / 2;
+  grid-row: 39 / 40;
+  margin-left: 1.5%;
+}
+
+.text-40{
+  grid-column: 2 / 3;
+  grid-row: 39 / 40;
+}
+
+/* experiment 8 R */
+.text-41{
+  grid-column: 3 / 6;
+  grid-row: 37 / 38;
+  margin-top: .5%;
+}
+
+.text-42{
+  grid-column: 3 / 6;
+  grid-row: 41 / 42;
+}
+
+/* experiment 9 L */
+.text-43{
+  grid-column: 1 / 3;
+  grid-row: 42 / 43;
+  margin-top: 1.5%;
+  margin-left: .5%;
+}
+
+.mvmt-9{
+  grid-column: 1 / 2;
+  grid-row: 43 / 44;
+}
+
+.img-18{
+  grid-column: 2 / 3;
+  grid-row: 43 / 44;
+}
+
+.text-44{
+  grid-column: 1 / 3;
+  grid-row: 44 / 45;
+}
+
+.text-45{
+  grid-column: 2 / 3;
+  grid-row: 44 / 45;
+}
+
+/* experiment 9 R */
+.text-46{
+  grid-column: 3 / 6;
+  grid-row: 42 / 43;
+  margin-top: .5%;
+}
+
+.text-47{
+  grid-column: 3 / 6;
+  grid-row: 46 / 47;
+}
+
+/* experiment 10 L */
+.text-48{
+  grid-column: 1 / 3;
+  grid-row: 47 / 48;
+  margin-top: 1.5%;
+  margin-left: .5%;
+}
+
+.mvmt-10{
+  grid-column: 1 / 2;
+  grid-row: 48 / 49;
+}
+
+.img-20{
+  grid-column: 2 / 3;
+  grid-row: 48 / 49;
+}
+
+.text-49{
+  grid-column: 1 / 2;
+  grid-row: 49 / 50;
+}
+
+.text-50{
+  grid-column: 2 / 3;
+  grid-row: 49 / 50;
+}
+
+/* experiment 10 R */
+.text-51{
+  grid-column: 3 / 6;
+  grid-row: 47 / 48;
+  margin-top: .5%;
+}
+
+.text-52{
+  grid-column: 3 / 6;
+  grid-row: 51 / 52;
+}
+
+/* experiment 11 L */
+.text-53{
+  grid-column: 1 / 3;
+  grid-row: 52 / 53;
+  margin-top: 1.5%;
+  margin-left: .5%;
+}
+
+.mvmt-11{
+  grid-column: 1 / 2;
+  grid-row: 53 / 54;
+}
+
+.img-22{
+  grid-column: 2 / 3;
+  grid-row: 53 / 54;
+}
+
+.text-54{
+  grid-column: 1 / 2;
+  grid-row: 54 / 55;
+  margin-left: 1.5%;
+}
+
+.text-55{
+  grid-column: 2 / 3;
+  grid-row: 54 / 55;
+}
+
+/* experiment 11 R */
+.text-56{
+  grid-column: 3 / 6;
+  grid-row: 52 / 53;
+  margin-top: .5%;
+}
+
+.text-57{
+  grid-column: 3 / 6;
+  grid-row: 56 / 57;
+}
+
+/* experiment 12 L */
+.text-58{
+  grid-column: 1 / 3;
+  grid-row: 57 / 58;
+  margin-top: 1.5%;
+  margin-left: .5%;
+}
+
+.mvmt-12{
+  grid-column: 1 / 2;
+  grid-row: 58 / 59;
+}
+
+.img-24{
+  grid-column: 2 / 3;
+  grid-row: 58 / 59;
+}
+
+.text-59{
+  grid-column: 1 / 2;
+  grid-row: 59 / 60;
+   margin-left: 1.5%;
+}
+
+.text-60{
+  grid-column: 2 / 3;
+  grid-row: 59 / 60;
+}
+
+/* experiment 12 R */
+.text-61{
+  grid-column: 3 / 6;
+  grid-row: 57 / 58;
+  margin-top: .5%;
+}
+
+.text-62{
+  grid-column: 3 / 6;
+  grid-row: 61 / 62;
+}
+
+/* experiment 13 L */
+.text-63{
+  grid-column: 1 / 3;
+  grid-row: 62 / 63;
+  margin-top: 1.5%;
+  margin-left: .5%;
+}
+
+.mvmt-13{
+  grid-column: 1 / 2;
+  grid-row: 63 / 64;
+}
+
+.img-26{
+  grid-column: 2 / 3;
+  grid-row: 63 / 64;
+}
+
+.text-64{
+  grid-column: 1 / 3;
+  grid-row: 64 / 65;
+}
+
+.text-65{
+  grid-column: 2 / 3;
+  grid-row: 64 / 65;
+}
+
+/* experiment 13 R */
+.text-66{
+  grid-column: 3 / 6;
+  grid-row: 62 / 63;
+  margin-top: .5%;
+}
+
+.text-67{
+  grid-column: 3 / 6;
+  grid-row: 66 / 67;
+}
+
+/* experiment 14 L */
+.text-82{
+  grid-column: 1 / 3;
+  grid-row: 67 / 68;
+  margin-top: 1.5%;
+  margin-left: .5%;
+}
+
+.mvmt-14{
+  grid-column: 1 / 2;
+  grid-row: 68 / 69;
+}
+
+.img-27{
+  grid-column: 2 / 3;
+  grid-row: 68 / 69;
+}
+
+.text-83{
+  grid-column: 1 / 3;
+  grid-row: 69 / 70;
+}
+
+.text-84{
+  grid-column: 2 / 3;
+  grid-row: 69 / 70;
+}
+
+/* experiment 14 R */
+.text-85{
+  grid-column: 3 / 6;
+  grid-row: 67 / 68;
+  margin-top: .5%;
+}
+
+.text-86{
+  grid-column: 3 / 6;
+  grid-row: 71 / 72;
+}
+
+
+/* experiment 15 L */
+.text-87{
+  grid-column: 1 / 3;
+  grid-row: 72 / 73;
+  margin-top: 1.5%;
+  margin-left: .5%;
+}
+
+.mvmt-15{
+  grid-column: 1 / 2;
+  grid-row: 73 / 74;
+}
+
+.img-28{
+  grid-column: 2 / 3;
+  grid-row: 73 / 74;
+}
+
+.text-88{
+  grid-column: 1 / 3;
+  grid-row: 74 / 75;
+}
+
+.text-89{
+  grid-column: 2 / 3;
+  grid-row: 74 / 75;
+}
+
+/* experiment 15 R */
+.text-90{
+  grid-column: 3 / 6;
+  grid-row: 72 / 73;
+  margin-top: .5%;
+}
+
+.text-91{
+  grid-column: 3 / 6;
+  grid-row: 76 / 77;
+}
+
+/* scroll indication */
+.text-68{
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+  justify-self: right;
+  margin-right: 3%;
+  margin-top: 1.5%;
+}
+
+.text-70{
+  grid-column: 5 / 6;
+  grid-row: 7 / 8;
+  justify-self: right;
+  margin-right: 3%;
+  margin-top: 1.5%;
+}
+
+.text-71{
+  grid-column: 5 / 6;
+  grid-row: 12 / 13;
+  justify-self: right;
+  margin-right: 3%;
+  margin-top: 1.5%;
+}
+
+.text-72{
+  grid-column: 5 / 6;
+  grid-row: 17 / 18;
+  justify-self: right;
+  margin-right: 3%;
+  margin-top: 1.5%;
+}
+
+.text-73{
+  grid-column: 5 / 6;
+  grid-row: 22 / 23;
+  justify-self: right;
+  margin-right: 3%;
+  margin-top: 1.5%;
+}
+
+.text-74{
+  grid-column: 5 / 6;
+  grid-row: 27 / 28;
+  justify-self: right;
+  margin-right: 3%;
+  margin-top: 1.5%;
+}
+
+.text-75{
+  grid-column: 5 / 6;
+  grid-row: 32 / 33;
+  justify-self: right;
+  margin-right: 3%;
+  margin-top: 1.5%;
+}
+
+.text-76{
+  grid-column: 5 / 6;
+  grid-row: 37 / 38;
+  justify-self: right;
+  margin-right: 3%;
+  margin-top: 1.5%;
+}
+
+.text-77{
+  grid-column: 5 / 6;
+  grid-row: 42 / 43;
+  justify-self: right;
+  margin-right: 3%;
+  margin-top: 1.5%;
+}
+
+.text-78{
+  grid-column: 5 / 6;
+  grid-row: 47 / 48;
+  justify-self: right;
+  margin-right: 3%;
+  margin-top: 1.5%;
+}
+
+.text-79{
+  grid-column: 5 / 6;
+  grid-row: 52 / 53;
+  justify-self: right;
+  margin-right: 3%;
+  margin-top: 1.5%;
+}
+
+.text-80{
+  grid-column: 5 / 6;
+  grid-row: 57 / 58;
+  justify-self: right;
+  margin-right: 3%;
+  margin-top: 1.5%;
+}
+
+.text-81{
+  grid-column: 5 / 6;
+  grid-row: 62 / 63;
+  justify-self: right;
+  margin-right: 3%;
+  margin-top: 1.5%;
+}
+
+/* styling */
+::-webkit-scrollbar {
+    display: none;
+}
+
+.page img{
+  display: block;
+  width: 100%;                        /* image fills container width */                  /* image fits container */                   /* maintain natural height */      /* optional: flush with image edges */
+  object-fit: contain;   
+  margin-bottom: 0;             /* remove inline spacing */
+}
+
+.img-scroll .img-scroll-2 img{
+  flex: 00 auto;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+/* img scrolls */
+/*experiment 1*/
+.img-scroll {
+  grid-column: 3 / 6;
+  grid-row: 3 / 6;
+  overflow-x: auto;
+  width: auto;
+  height: 100%;
+  scrollbar-width: none;
+}
+
+.img-scroll .wrapper{
+  display: flex;
+  flex-wrap: nowrap;   /* prevents wrapping (forces horizontal layout) */
+  width: max-content;
+  height: 100%;  /* expands as wide as needed for all images */
+}
+
+/* video */
+.video-wrapper {
+  position: relative;
+  aspect-ratio: 3 / 2;
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.vid-6, .vid-5, .vid-4, .vid-7, .vid-8, .vid-9, .vid-10, .vid-15, .vid-16, .vid-19, .vid-24, .vid-25, .vid-26, .vid-27, .vid-35, .vid-36, .vid-39 {
+  transform: scale(1.01);
+  transform-origin: center;
+  object-fit: contain;
+}
+
+.video-wrapper-mvmt {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  width: 100%;  
+  height: 100%;  
+  border: none;
+  z-index: 2;
+}
+
+.video-wrapper-mvmt iframe {
+  position: block;
+  width: 100%;                                         
+  object-fit: contain; 
+  height: 100%;  /* oversize so it can crop */
+  border: none;
+  z-index: 2;
+}
+
+/*experiment 2*/
+.img-scroll-2 {
+  grid-column: 3 / 6;
+  grid-row: 8 / 11;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: auto;
+  height: 100%;
+  scrollbar-width: none;
+}
+
+.img-scroll-2 .wrapper-2{
+  display: flex;
+  flex-wrap: nowrap;   /* prevents wrapping (forces horizontal layout) */
+  width: max-content;
+  height: 100%;  /* expands as wide as needed for all images */
+}
+
+/*experiment 3*/
+.img-scroll-3 {
+  grid-column: 3 / 6;
+  grid-row: 13 / 16;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: auto;
+  height: 100%;
+  scrollbar-width: none;
+}
+
+.img-scroll-3 .wrapper-3{
+  display: flex;
+  flex-wrap: nowrap;   /* prevents wrapping (forces horizontal layout) */
+  width: max-content;
+  height: 100%;  /* expands as wide as needed for all images */
+}
+
+/*experiment 4*/
+.img-scroll-4 {
+  grid-column: 3 / 6;
+  grid-row: 18 / 21;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: auto;
+  height: 100%;
+  scrollbar-width: none;
+}
+
+.img-scroll-4 .wrapper-4{
+  display: flex;
+  flex-wrap: nowrap;   /* prevents wrapping (forces horizontal layout) */
+  width: max-content;
+  height: 100%;  /* expands as wide as needed for all images */
+  padding: -2px;
+}
+
+/*experiment 5*/
+.img-scroll-5 {
+  grid-column: 3 / 6;
+  grid-row: 23 / 26;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: auto;
+  height: 100%;
+  scrollbar-width: none;
+}
+
+.img-scroll-5 .wrapper-5{
+  display: flex;
+  flex-wrap: nowrap;   /* prevents wrapping (forces horizontal layout) */
+  width: max-content;
+  height: 100%;  /* expands as wide as needed for all images */
+}
+
+/*experiment 6*/
+.img-scroll-6 {
+  grid-column: 3 / 6;
+  grid-row: 28 / 31;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: auto;
+  height: 100%;
+  scrollbar-width: none;
+}
+
+.img-scroll-6 .wrapper-6{
+  display: flex;
+  flex-wrap: nowrap;   /* prevents wrapping (forces horizontal layout) */
+  width: max-content;
+  height: 100%;  /* expands as wide as needed for all images */
+}
+
+/*experiment 7*/
+.img-scroll-7 {
+  grid-column: 3 / 6;
+  grid-row: 33 / 36;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 100%;
+  scrollbar-width: none;
+  width: auto;
+}
+
+.img-scroll-7 .wrapper-7{
+  display: flex;
+  flex-wrap: nowrap;   /* prevents wrapping (forces horizontal layout) */
+  width: max-content;
+  height: 100%;  /* expands as wide as needed for all images */
+}
+
+/*experiment 8*/
+.img-scroll-8 {
+  grid-column: 3 / 6;
+  grid-row: 38 / 41;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: auto;
+  height: 100%;
+  scrollbar-width: none;
+}
+
+.img-scroll-8 .wrapper-8{
+  display: flex;
+  flex-wrap: nowrap;   /* prevents wrapping (forces horizontal layout) */
+  width: max-content;
+  height: 100%;  /* expands as wide as needed for all images */
+}
+
+/*experiment 9*/
+.img-scroll-9 {
+  grid-column: 3 / 6;
+  grid-row: 43 / 46;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: auto;
+  height: 100%;
+  scrollbar-width: none;
+}
+
+.img-scroll-9 .wrapper-9{
+  display: flex;
+  flex-wrap: nowrap;   /* prevents wrapping (forces horizontal layout) */
+  width: max-content;
+  height: 100%;  /* expands as wide as needed for all images */
+}
+
+/*experiment 10*/
+.img-scroll-10 {
+  grid-column: 3 / 6;
+  grid-row: 48 / 51;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: auto;
+  height: 100%;
+  scrollbar-width: none;
+}
+
+.img-scroll-10 .wrapper-10 {
+  display: flex;
+  flex-wrap: nowrap;   /* prevents wrapping (forces horizontal layout) */
+  width: max-content;
+  height: 100%;  /* expands as wide as needed for all images */
+  align-items: stretch;
+}
+
+/*experiment 11*/
+.img-scroll-11 {
+  grid-column: 3 / 6;
+  grid-row: 53 / 56;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: auto;
+  height: 100%;
+  scrollbar-width: none;
+}
+
+.img-scroll-11 .wrapper-11{
+  display: flex;
+  flex-wrap: nowrap;   /* prevents wrapping (forces horizontal layout) */
+  width: max-content;
+  height: 100%;  /* expands as wide as needed for all images */
+}
+
+/*experiment 12*/
+.img-scroll-12 {
+  grid-column: 3 / 6;
+  grid-row: 58 / 61;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: auto;
+  height: 100%;
+  scrollbar-width: none;
+}
+
+.img-scroll-12 .wrapper-12{
+  display: flex;
+  flex-wrap: nowrap;   /* prevents wrapping (forces horizontal layout) */
+  width: max-content;
+  height: 100%;  /* expands as wide as needed for all images */
+}
+
+/*experiment 13*/
+.img-scroll-13 {
+  grid-column: 3 / 6;
+  grid-row: 63 / 66;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: auto;
+  height: 100%;
+  scrollbar-width: none;
+}
+
+.img-scroll-13 .wrapper-13{
+  display: flex;
+  flex-wrap: nowrap;   /* prevents wrapping (forces horizontal layout) */
+  width: max-content;
+  height: 100%;  /* expands as wide as needed for all images */
+}
+
+/*experiment 14*/
+.img-scroll-14 {
+  grid-column: 3 / 6;
+  grid-row: 68 / 71;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: auto;
+  height: 100%;
+  scrollbar-width: none;
+}
+
+.img-scroll-14 .wrapper-14 {
+  display: flex;
+  flex-wrap: nowrap;   /* prevents wrapping (forces horizontal layout) */
+  width: max-content;
+  height: 100%;  /* expands as wide as needed for all images */
+}
+
+/*experiment 15*/
+.img-scroll-15 {
+  grid-column: 3 / 6;
+  grid-row: 73 / 76;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: auto;
+  height: 100%;
+  scrollbar-width: none;
+}
+
+.img-scroll-15 .wrapper-15 {
+  display: flex;
+  flex-wrap: nowrap;   /* prevents wrapping (forces horizontal layout) */
+  width: max-content;
+  height: 100%;  /* expands as wide as needed for all images */
+}
+
+/*p5 canvas
+.container {
+  grid-column: 5 / 6;
+  grid-row: 3 / 5; 
+  display: flex;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
+#myContainer canvas {
+  width: 75% !important;     
+  height: auto !important;  
+  display: block;
+  margin: 0;
+  visibility: visible;
+} */
