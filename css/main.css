@@ -10,7 +10,7 @@ body {
   background: #f9f9f9;
   font-family:'Arketa', 'Chivo Mono', monospace;
   color: blue;
-  font-size: 11px;
+  font-size: 12px;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -28,7 +28,18 @@ body {
   width: 100%;
   gap: 0px;
   margin: 0px;
-  overflow: hidden;
+  overflow: visible;
+  align-items: center;
+}
+
+p {
+  word-spacing: -0.2em;
+  line-height: 1.32;
+  letter-spacing: 0.05em;
+}
+
+html {
+  height: 100%;
 }
 
 .page {
@@ -142,8 +153,7 @@ body {
 .header .text-1{
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  margin-left: 1%;
-  margin-top: 2%;
+  margin-left: 2%;
 }
 
 .header .text-92{
@@ -151,20 +161,30 @@ body {
   grid-row: 1 / 2;
   margin-left: 1%;
   margin-right: 2%;
-  margin-top: 2%;
   justify-self: right;
 }
 
 .header .text-2{
   grid-column: 2 / 3;
   grid-row: 1 / 2;
-  margin-top: 2%;
 }
 
 .header .text-69 {
   grid-column: 3 / 4;
   grid-row: 1 / 2;
-  margin-top: 1%;
+  margin-top: -1%;
+}
+
+#mvmt-title,
+#mvmt-title a,
+#mvmt-title a:link,
+#mvmt-title a:visited,
+#mvmt-title a:hover,
+#mvmt-title a:active,
+#mvmt-title a:focus {
+  color: blue !important;
+  text-decoration: none !important;
+  outline: none !important;
 }
 
  /* experiment 1 L */
@@ -884,11 +904,26 @@ body {
     display: none;
 }
 
+
 .page img{
   display: block;
   width: 100%;                        /* image fills container width */                  /* image fits container */                   /* maintain natural height */      /* optional: flush with image edges */
   object-fit: contain;   
   margin-bottom: 0;             /* remove inline spacing */
+}
+
+[class^="img-scroll"] img,
+[class*=" img-scroll"] img {
+  width: auto;          /* let width be dictated by height, not container */
+  height: 100%;         /* fill the wrapper height */
+  max-width: none;      /* prevent any implicit max-width capping */
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;       /* critical for Firefox — prevents squishing */
+}
+
+[class^="wrapper"] {
+  align-items: stretch;
 }
 
 /* img scrolls */
@@ -1223,3 +1258,46 @@ body {
   margin: 0;
   visibility: visible;
 } */
+
+
+/*MVMT___INTFC ABOUT*/
+.block {
+  grid-column: 3 / 6;
+  grid-row: 2 / 10;
+  margin-right: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.para-4 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 10;
+  margin-left: 2%;
+  margin-right: 5%;
+}
+
+.para-5 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 10;
+  margin-right: 5%;
+}
+
+#link,
+#link:link,
+#link:visited,
+#link:hover,
+#link:active,
+#link:focus {
+  color: blue;
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none !important;
+  color: inherit !important;
+}
